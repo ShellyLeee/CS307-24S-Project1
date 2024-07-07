@@ -20,7 +20,12 @@ Project 说明及要求：https://github.com/ShellyLeee/CS307-24S-Project2/blob/
      - [x] 多导入数据量对比
      - [ ] 多数据库使用（如OpenGauss）
 
-2. 可以改进部分：
+2. 项目结构：
+   - Data Insertion分为python和Java两种语言版本
+   - Script Optimization是导入数据代码优化任务，有三个python文档，分别为多线程、预编译、Batch的方法
+   - Generate Data是为高级部分导入数据量对比任务准备，使用python语言，根据已有的数据，随机组合产生20w条新数据
+
+3. 可以改进部分：
    - 完成高级部分中多数据库使用的任务
    - 提升数据导入代码效率方面，目前我们使用了多线程、预编译、Batch的方法优化，只有多线程得到了大幅度优化，具体原因和解决方法还需要探索
    - 老师评语
